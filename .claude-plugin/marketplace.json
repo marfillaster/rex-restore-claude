@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rex-restore-claude",
+  "description": "Resume Claude Code conversations in Rex panes after a Rex server restart",
+  "owner": {
+    "name": "marfillaster"
+  },
+  "plugins": [
+    {
+      "name": "rex-restore-claude",
+      "source": "./",
+      "description": "Resume the Claude Code conversation each Rex pane was in after a Rex server restart"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "rex-restore-claude",
+  "version": "0.1.0",
+  "description": "Resume the Claude Code conversation each Rex pane was in after a Rex server restart",
+  "author": {
+    "name": "Ken Marfilla"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rex",
+    "terminal",
+    "claude",
+    "resume",
+    "zsh"
+  ]
+}

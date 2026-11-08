@@ -1,0 +1,16 @@
+{
+  "description": "Save `<claude command> --resume <session_id>` as the Rex pane's resume command",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/claude-session-start.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
